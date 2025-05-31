@@ -189,3 +189,121 @@ h1 {
     border: transparent;
     border-radius: 5px;
 }
+
+/* SECTION4 */
+
+.section4 {
+    padding-top: 100px;
+}
+
+.text2 {
+    text-align: center;
+    justify-self: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.cards-item {
+    width: 360px;
+    height: 446px;  
+    border: 2px solid #0000001A;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dollar {
+    display: flex;
+    justify-content: center;
+}
+
+.numberjon1 {
+    margin-left: 110px;
+}
+
+
+.numberjon2 {
+    margin-left: 200px;
+}
+
+.numberjon3 {
+    margin-left: 200px;
+}
+
+.numberjon4 {
+    margin-left: 20px;
+}
+
+.numberjon5 {
+    margin-left:150px;
+}
+
+.numberjon6 {
+    margin-left: 85px;
+}
+
+
+.img4 {
+    width: 110%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:50px;
+    width: 360px;
+    height: 264px;
+}
+
+.img3 {
+    width: 88px;
+    height: 16px;
+}
+
+.btn5 {
+    width: 36px;
+    height: 34px;
+    background-color: #DC780B;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+}
+
+.mealName {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.sentence {
+    display: flex;
+    justify-content: center;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.btn6 {
+    background-color: white;
+    border: 2px solid #f7ebde;
+    color: #DC780B;
+    font-weight: 600;
+    align-self: center;
+    justify-self: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
