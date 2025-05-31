@@ -307,3 +307,63 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+/* SECTION5 */
+
+.section5 {
+    background-color: #FBF1E7;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.left5 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:15px;
+    margin-left: 200px;
+}
+
+.left5, .heading1 {
+    padding: 0;
+}
+
+.buttonss {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.right5 {
+    width: 40%;
+    position: relative;
+}
+
+.phone {
+    position: absolute;
+    top: -350px;
+}
+
+.text3 {
+    text-align: start;
+}
+
+.apple {
+    background-color: black;
+}
+
+.play {
+    background-color: white;
+    color: black;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
