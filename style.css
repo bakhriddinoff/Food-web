@@ -1,0 +1,159 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 55%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #150C01;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+    color: #DC780B;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    height: 46px;
+    width: 155px;
+    background-color: #DC780B;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+
+.btn2 {
+    width: 158px;
+    height: 60px;
+    background-color: #DC780B;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(252, 242, 231);
+    color: #DC780B;
+}
+
+.btn3 {
+    background-color: white;
+    color: #DC780B;
+    border: 2px solid rgb(252, 242, 231);
+}
+
+
+.btn1, .btn3:hover {
+    background-color: #DC780B;
+    color: white;
+}
+
+main {
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.text1 {
+    font-size: 16px;
+}
+
+.round {
+    background-color: rgb(244, 247, 235);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    border-radius: 50px;
+}
+
+.heading1 {
+    color: rgb(232, 164, 90);
+    justify-self: center;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.heading2, .heading3 {
+    color: #333;
+    justify-self: center;
+    font-size: 24px;
+}
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.text1 {
+    text-align: center;
+    color: gray;
+}
+
+.img2 {
+    width: 400px;
+}
+
